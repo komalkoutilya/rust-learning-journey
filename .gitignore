@@ -1,0 +1,23 @@
+# ignore all files with extension ".exe"
+*.exe
+
+# ignore all files with extension ".pdb"
+*.pdb
+
+# ignore all target files and Rust build artifacts
+target/
+**/target/
+
+# JetBrains IDE (RustRover)
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Rust backup files
+**/*.rs.bk
+
+# Most Rust projects simply use
+/target
+.idea
