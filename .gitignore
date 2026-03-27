@@ -18,6 +18,8 @@ Thumbs.db
 # Rust backup files
 **/*.rs.bk
 
+# Cargo lock
+
 # Most Rust projects simply use
 /target
 .idea
